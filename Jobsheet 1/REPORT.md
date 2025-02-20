@@ -11,7 +11,7 @@
 
 implementasi solusi terdapat di Pemilihan.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](iamge/Pemilihan1.png)
+![Screenshot](image/Pemilihan1.png)
 ![Screenshot](image/Pemilihan2.png)
 ![Screenshot](image/Pemilihan3.png)
 
