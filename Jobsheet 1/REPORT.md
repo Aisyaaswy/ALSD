@@ -11,9 +11,9 @@
 
 implementasi solusi terdapat di Pemilihan.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Pemilihan1.png)
-![Screenshot](img/Pemilihan2.png)
-![Screenshot](img/Pemilihan3.png)
+![Screenshot](iamge/Pemilihan1.png)
+![Screenshot](image/Pemilihan2.png)
+![Screenshot](image/Pemilihan3.png)
 
 **Penjelasan :** Terdapat 4 langkah yakni :
 1. Inputkan semua nilai
@@ -25,7 +25,7 @@ implementasi solusi terdapat di Pemilihan.java, dan berikut merupakan hasil scre
 
 implementasi solusi terdapat di Perulangan.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Perulangan.png)
+![Screenshot](image/Perulangan.png)
 
 **Penjelasan :** Terdapat 6 langkah utama yakni :
 1. Inputkan NIM 
@@ -39,8 +39,8 @@ implementasi solusi terdapat di Perulangan.java, dan berikut merupakan hasil scr
 
 implementasi solusi terdapat di Array.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Array1.png)
-![Screenshot](img/Array2.png)
+![Screenshot](image/Array1.png)
+![Screenshot](image/Array2.png)
 
 **Penjelasan :** Terdapat 5 langkah utama yakni :
 1. Membuat array untuk menyimpan data yang telah diinputkan
@@ -53,7 +53,7 @@ implementasi solusi terdapat di Array.java, dan berikut merupakan hasil screensh
 
 implementasi solusi terdapat di Fungsi.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Fungsi.png)
+![Screenshot](image/Fungsi.png)
 
 **Penjelasan :** Terdapat 5 langkah utama yakni :
 1. Menginisialisasikan Array yang berisikan stok dan juga harga bunga
@@ -66,8 +66,8 @@ implementasi solusi terdapat di Fungsi.java, dan berikut merupakan hasil screens
 
 implementasi solusi terdapat di Tugas1.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Tugas1-1.png)
-![Screenshot](img/Tugas1-2.png)
+![Screenshot](image/Tugas1-1.png)
+![Screenshot](image/Tugas1-2.png)
 
 **Penjelasan :** Terdapat 4 langkah utama yakni :
 1. Membuat char array untuk menyimpan kode dan kota
@@ -79,7 +79,7 @@ implementasi solusi terdapat di Tugas1.java, dan berikut merupakan hasil screens
 
 implementasi solusi terdapat di Tugas2.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Tugas2.png)
+![Screenshot](image/Tugas2.png)
 
 **Penjelasan :** Terdapat 4 langkah utama yakni :
 1. Menginputkan panjang sisi kubus
@@ -91,10 +91,10 @@ implementasi solusi terdapat di Tugas2.java, dan berikut merupakan hasil screens
 
 implementasi solusi terdapat di Tugas3.java, dan berikut merupakan hasil screenshot hasil.
 
-![Screenshot](img/Tugas3-1.png)
-![Screenshot](img/Tugas3-2.png)
-![Screenshot](img/Tugas3-3.png)
-![Screenshot](img/Tugas3-4.png)
+![Screenshot](image/Tugas3-1.png)
+![Screenshot](image/Tugas3-2.png)
+![Screenshot](image/Tugas3-3.png)
+![Screenshot](image/Tugas3-4.png)
 
 **Penjelasan :** Terdapat 5 langkah utama yakni :
 1. Menginputkan Jumlah Mata Kuliah
