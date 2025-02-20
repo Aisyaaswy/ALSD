@@ -6,9 +6,9 @@ public class Array {
         // input nama matkul,bobot sks, nilai huruf matkul
         // nilai angka matkul, hasil
 
-        System.out.println("===================================");
-        System.out.println("Program menghitung IP Semester");
-        System.out.println("===================================");
+        System.out.println("====================================");
+        System.out.println("   Program menghitung IP Semester   ");
+        System.out.println("====================================");
         
         String[] namaMatkul = new String[8];
         String[] nilaiHuruf = new String[8];
@@ -19,7 +19,7 @@ public class Array {
         double ip = 0;
         
         for (int i = 0; i < namaMatkul.length; i++) {
-            System.out.print("Masukkan Nama Mata Kuliah : ");
+            System.out.print("Masukkan Nama Mata Kuliah Ke-" + (i + 1) + " : ");
             namaMatkul[i] = sc.nextLine();
             System.out.print("Masukkan Nilai Huruf Mata Kuliah (A/B+/B/C+/C/D/E) " + namaMatkul[i] + " : ");
             nilaiHuruf[i] = sc.nextLine();
@@ -27,6 +27,7 @@ public class Array {
             bobotSks[i] = sc.nextInt();
             sc.nextLine();
             totalSKS += bobotSks[i];
+            System.out.println();
             
             if (nilaiHuruf[i].equals("A")) {
                 nilaiSetara[i] = 4;
@@ -52,11 +53,11 @@ public class Array {
         System.out.println("====================");
 
         System.out.printf(
-        "%-20s %-20s %-20s %-20s\n", "Mata Kuliah", "Nilai Angka", "Nilai Huruf", "Bobot SKS");
+        "%-50s %-20s %-20s %-20s\n", "Mata Kuliah", "Nilai Angka", "Nilai Huruf", "Bobot SKS");
 
         for (int i = 0; i < namaMatkul.length; i++) {
         System.out.printf(
-          "%-20s %-20s %-20s %-20s\n",
+          "%-50s %-20s %-20s %-20s\n",
             namaMatkul[i], nilaiSetara[i], nilaiHuruf[i], bobotSks[i]);
         }
         System.out.println("IP Semester : " + ip);

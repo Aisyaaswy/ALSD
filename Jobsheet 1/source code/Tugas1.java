@@ -22,7 +22,7 @@ public class Tugas1 {
         boolean isFound = false;
 
         for (int i = 0; i < kode.length; i++) {
-            if (kode[i] == plat);
+            if (kode[i] == plat){
             System.out.print("Kota : ");
             
             for (char code : kota[i]) {
@@ -30,6 +30,7 @@ public class Tugas1 {
             }
             isFound = true;
             break;
+            }
         }
         if (!isFound) {
             System.out.println("Kode tidak ditemukan!");
