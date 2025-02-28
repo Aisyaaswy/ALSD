@@ -3,7 +3,7 @@
 | NIM |  244107020109|
 | Nama |  Aisya Aswy Nur Aidha|
 | Kelas | TI - 1H |
-| Repository | [link]  |
+| Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%202] |
 
 # Labs #2 OBJECT 
 #  Praktikum
@@ -22,7 +22,7 @@ Hasil compile kode program
 ![Screenshot](image/2.1.2.png)
 
 **2.1.3 Pertanyaan :**
-1. 2 karakteristik dari class atau object merupakan Atribut dan Behavior
+1. 2 karakteristik dari class atau object merupakan Atribut dan Method
 2. Pada class Mahasiswa03 terdapat 4 atribut yang dimiliki. Diantaranya :
     - String nama
     - String nim
@@ -125,9 +125,41 @@ mhsRani.tampilkanInformasi();
 
 ![Screenshot](image/Tugas1.png)
 
+Program yang telah dibuat berdasarkan diagram class ini terdiri dari :
+- Class MataKuliah03.java
+- Class MataKuliahMain03.java
+
+**a. Atribut**
+- ```kodeMK(String)``` : Kode unik untuk Mata Kuliah 
+- ```nama(String)```   : Nama lengkap Mata Kuliah
+- ```sks(int)```       : SKS
+- ```jumlahJam(int)``` : Jumlah jam per minggu dari Mata Kuliah
+
+**b. Method**
+- ```tampilInformasi()``` : untuk menampilkan semua informasi yg berkaitan dengan Mata Kuliah
+- ```ubahSKS(int sksBaru)``` : untuk mengupdate perubahan pada atribut nilai SKS Mata Kuliah
+- ```tambahJam(int jam)``` : untuk menambah jumlah jam tambahan ke jumlah jam yang sudah ada untuk Mata Kuliah
+- ```kurangiJam(int jam)``` : untuk mengurangi jumlah jam dari Mata Kuliah, juga melakukan pengecekan untuk memastikan jumlah jam yang akan dikurangi mencukupi
+
 **Tugas 2 : Class Dosen**
 
 **Hasil run kode program**
 
 ![Screenshot](image/Tugas2.png)
 
+Program yang telah dibuat berdasarkan diagram class ini terdiri dari :
+- Class Dosen03.java
+- Class DosenMain03.java
+
+**a. Atribut**
+- ```idDosen(String)``` : ID unik setiap dosen
+- ```nama(String)```    : Nama lengkap dosen
+- ```statusAktif(String)``` : Mengidentifikasi apakah dosen masih aktif mengajar atau tidak aktif
+- ```tahunBergabung(int)```: Tahun ketika dosen bergabung ke perguruan tinggi
+- ```bidangKeahlian(String)``` : Bidang kehallian dosen
+
+**b. Method**
+- ```tampilInformasi()``` : untuk menampilkan semua informasi yg berkaitan dengan dosen
+- ```setStatusAktif(status : boolean)``` : untuk mengatur status aktif ataupun tidak aktif dosen
+- ```hitungMasaKerja(thnSkrg : int)``` : untuk mengetahui berapa lama dosen telah bekerja di perguruan tinggi
+- ```ubahKeahlian(bidang : String)``` : untuk mengubah bidang keahlian dosen
