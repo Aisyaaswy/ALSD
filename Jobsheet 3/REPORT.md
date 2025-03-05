@@ -3,7 +3,7 @@
 | NIM |  244107020109|
 | Nama |  Aisya Aswy Nur Aidha|
 | Kelas | TI - 1H |
-| Repository | [] |
+| Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%203] |
 
 # Labs #2 ARRAY OF OBJECTS
 #  Praktikum
