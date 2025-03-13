@@ -18,6 +18,5 @@ public class DosenMain03 {
         dosen1.tampilInformasi();
         System.out.println("Dosen " + dosen1.nama + " telah mengajar selama " + dosen1.hitungMasaKerja(2025) + " tahun");
         System.out.println();
-
     }
 }
