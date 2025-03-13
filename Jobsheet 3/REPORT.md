@@ -5,7 +5,7 @@
 | Kelas | TI - 1H |
 | Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%203] |
 
-# Labs #2 ARRAY OF OBJECTS
+# Labs #3 ARRAY OF OBJECTS
 #  Praktikum
 ## 3.2 Membuat Array dari Object, Mengisi dan Menampilkan
 
