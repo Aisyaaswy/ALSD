@@ -69,5 +69,4 @@ public class MahasiswaBerprestasi03 {
             listMhs[j] = temp;
         }
     }
-    
 }
