@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MainDosen {
+public class DosenDemo {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     DataDosen list = new DataDosen();
