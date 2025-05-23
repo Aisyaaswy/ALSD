@@ -59,7 +59,8 @@ public class Queue {
 
     public void Enqueue(int dt) {
         if (isFull()) {
-            System.out.println("Queue sudah penuh");
+            System.out.println("Queue overflow! Program berhenti");
+            System.exit(1);
         } else {
             if (isEmpty()) {
                 front = rear = 0;
@@ -78,7 +79,8 @@ public class Queue {
     public int Dequeue() {
         int dt = 0;
         if (isEmpty()) {
-            System.out.println("Queue masih kosng");
+            System.out.println("Queue underflow! Program berhenti");
+            System.exit(1);
         } else {
             dt = data[front];
             if (front == max - 1) {

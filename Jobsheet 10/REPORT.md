@@ -3,7 +3,7 @@
 | NIM |  244109020109|
 | Nama |  Aisya Aswy Nur Aidha|
 | Kelas | TI - 1H |
-| Repository | [] |
+| Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%2010] |
 
 # JOSBHEET X QUEUE
 # Praktikum
@@ -45,7 +45,46 @@ Hasil run kode program
             System.out.println("Queue sudah penuh");
         }
 ```
-7. 
+7. Memodifikasi program agar langsung berhenti ketika terjadi queue overflow dan queue underflow
+- Pada method ```Enqueue()```
+```java
+public void Enqueue(int dt) {
+        if (isFull()) {
+            System.out.println("Queue overflow! Program berhenti");
+            System.exit(1); //menambahkan potongan program berikut agar program langsung berhenti ketika queue underflow
+        } else {
+            if (isEmpty()) {
+                front = rear = 0;
+            } else {
+                if (rear == max - 1) {
+                    rear = 0;
+                } else {
+                    rear++;
+                }
+            }
+            data[rear] = dt;
+            size++;
+        }
+    }
+```
+- Pada method ```Dequeue()```
+```java
+    public int Dequeue() {
+        int dt = 0;
+        if (isEmpty()) {
+            System.out.println("Queue underflow! Program berhenti");
+            System.exit(1); // menambahkan potongan program berikut agar program langsung berhenti ketika queue underflow
+        } else {
+            dt = data[front];
+            if (front == max - 1) {
+                front = 0;
+            } else {
+                front++;
+            }
+        }
+        return dt;
+    }
+```
 
 ## 10.2 Percobaan 1 :Antrian Layanan Akademik
 
@@ -92,5 +131,5 @@ Melakukan modifikasi dengan menambahkan method baru bernama ```LihatAkhir``` pad
                     break;
 ```
 
-**Latihan Praktikum :**
-
+**Tugas**
+Membutuat program antrian untuk mengilustrasikan antrian persetujuan Kartu Rencana Studi(KRS) Mahasiswa oleh Dosen Pembina Akademik (DPA). Ketika seseorang akan mengantri, maka harus mendaftarkan datanya. Menggunakan method method yang sudah ditentukan di dalam jobsheet
