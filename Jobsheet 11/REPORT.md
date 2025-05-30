@@ -3,7 +3,7 @@
 | NIM |  244109020109|
 | Nama |  Aisya Aswy Nur Aidha|
 | Kelas | TI - 1H |
-| Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%2011] |
+| Repository | [https://github.com/Aisyaaswy/ALSD/tree/main/Jobsheet%2012] |
 
 # JOSBHEET XI LINKED LIST
 # Praktikum
