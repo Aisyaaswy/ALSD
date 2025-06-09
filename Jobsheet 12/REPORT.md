@@ -61,22 +61,50 @@ Hasil run kode program
 ```
 7. Pada kode tersebut digunakan untuk menghubungkan newNode ke node setelah current 
 8. Modifikasi menu pilihan dan switch case agar fungsi ```insertAfter( ``` masuk ke menu
+- menu
 ```java
+ do {
+            System.out.println("\nMenu Double Linked List Mahasiswa");
+            System.out.println("1. Tambah di awal");
+            System.out.println("2. Tambah di akhir");
+            System.out.println("3. Tambah setelah NIM tertentu");
+            System.out.println("4. Hapus di awal");
+            System.out.println("5. Hapus di akhir");
+            System.out.println("6. Tampilkan data");
+            System.out.println("7. Cari Mahasiswa berdasarkan NIM");
+            System.out.println("0. Keluar");
+            System.out.print("Pilih menu : ");
+            pilihan = sc.nextInt();
+            sc.nextLine();
+```
+- pilihan menu
+```java
+case 3 -> {
+            System.out.print("Masukkan NIM setelah mana data akan disisipkan : ");
+            String nimKey = sc.nextLine();
+            Mahasiswa03 mhs3 = inputMahasiswa(sc);
+            list.insertAfter(nimKey, mhs3);
+        }
+
+case 7 -> {
+            System.out.print("Masukkan NIM yang dicari : ");
+            String nim = sc.nextLine();
+            Node03 found = list.search(nim);
+            if (found != null) {
+                System.out.println("Data Ditemukan");
+                found.data.tampil();
+            } else {
+                System.out.println("Data tidak ditemukan");
+            }
+        }
 
 ```
 
-## 12.2 Percobaan 2 : Memodifikasi Elemen pada Single Linked List
+## 12.2 Percobaan 2 : 
 
 **12.2.1 Langkah - langkah Percobaan 2 :** 
-1. Mengimplementasikan method untuk mengakses data dan indeks pada linked list
-2. Menambahkan methid untuk mendapatkan data pada indeks tertentu pada Class Single Linked List
-3. Mengimplementasikan method ```indexOf```
-4. Menambahkan method ```removeFirst``` pada class Single Linked List
-5. Menambahkan method untuk menghapus data pada bagian belakang class Single Linked List
-6. Mengimplementasikan method ```remove```
-7. Mengimplementasikan method untuk menghapus node dengan menggunakan index
-8. Mencoba melakukan pengaksesan dan penghapusan data di method main pada class ```SLLMain``` dengan menambahkan kode yang telah ditentukan pada jobsheet
-9. Menjalankan class ```SLLMain```
+1. Menambahkan method ```removeFirst()``` dalam class ```DoubleLinkedList```
+2. Menambahkan method ```removeLast()``` dalam class ```DoubleLinkedList```
 
 **12.2.2 Verifikasi Hasil Percobaan**
 
@@ -85,8 +113,17 @@ Hasil run kode program
 ![Screenshot](image/12.2.2.png)
 
 **12.2.3 Pertanyaan :**
-1. Keyword break pada fungsi remove digunakan untuk menghentikan loop while saat data nama yang dicari (key) sudah ditemukan dan proses penghapusan selesai dilakukan. 
-2. Kode tersebut bertujuan untuk menghapus node selain node yang berada di posisi pertama dan menjaga integritas pointer tail jika node terakhir dihapus.
+1. Fungsi kode tersebut adalah menghapus node pertama dari double linked list dengan cara menggeser node ke node berikutnya dan memastikan prev node baru menjadi null.
+2. Modifikasi kode program untuk menampilkan pesan "Data sudah berhasil dihapus.  Data yang terhapus adalah...."
+```java
+        Mahasiswa03 dataYangDihapus = head.data;
+        Mahasiswa03 dataYangDihapus = tail.data;
+```
+```java
+        System.out.println("Data sudah berhasil dihapus.");
+        System.out.println("Data yang terhapus adalah   : ");
+        System.out.println("NIM : " + dataYangDihapus.nim + ", Nama : " + dataYangDihapus.nama + ", Kelas : " + dataYangDihapus.kelas + ", IPK : " + dataYangDihapus.ipk);
+```
 
 ## Tugas
 Membuat kode program dengan ketentuan yang telah ditentukan dalam jobsheet
